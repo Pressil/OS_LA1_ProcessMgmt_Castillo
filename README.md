@@ -11,7 +11,7 @@
 
 ---
 
-## Re-Lab Setup (Windows with VS Code and MinGW-w64)
+## Pre-Lab Setup (Windows with VS Code and MinGW-w64)
 
 1. **Install Software**
    - Install **MSYS2** (used only to install GCC and check version).
@@ -84,6 +84,7 @@ gcc src/create_basic.c -o create_basic.exe
 ./create_basic.exe
 ```
 **Sample Output:**
+
 
 
 
