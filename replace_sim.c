@@ -40,6 +40,6 @@ int main(void) {
     CloseHandle(pi.hProcess);
     CloseHandle(pi.hThread);
 
-    // ✅ Parent exits with same code as child
+    // Parent exits with same code as child
     return exitCode;
 }
