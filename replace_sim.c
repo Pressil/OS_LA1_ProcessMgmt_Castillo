@@ -33,13 +33,13 @@ int main(void) {
     DWORD exitCode;
     if (!GetExitCodeProcess(pi.hProcess, &exitCode)) {
         printf("Failed to get exit code (%lu).\n", GetLastError());
-        exitCode = 1; // default error
+        exitCode = 1; 
     }
 
     // Clean up
     CloseHandle(pi.hProcess);
     CloseHandle(pi.hThread);
 
-    // Parent exits with same code as child
+    Sleep(5000);
     return exitCode;
 }
