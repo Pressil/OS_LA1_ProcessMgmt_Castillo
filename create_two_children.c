@@ -22,7 +22,7 @@ int main(void) {
             return 1;
         }
 
-        // ✅ Wait immediately for this child before moving on
+        // Wait immediately for this child before moving on
         WaitForSingleObject(pi[i].hProcess, INFINITE);
 
         DWORD exitCode;
