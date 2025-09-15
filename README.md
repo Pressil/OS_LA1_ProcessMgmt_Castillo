@@ -85,6 +85,56 @@ gcc src/create_basic.c -o create_basic.exe
 ```
 **Sample Output:**
 
+![Task A Output](Screenshots/TASK1.png)
+
+### Task B – Creating Two Children
+
+**Compile:**
+```bash
+gcc create_two_children.c -o create_two_children.exe
+ ```
+**Run:**
+```bash
+./create_two_children.exe
+```
+**Sample Output:**
+
+![Task A Output](Screenshots/TASK2.png)
+
+### Task C – Simulating exec()
+
+**Compile:**
+```bash
+gcc replace_sim.c -o replace_sim.exe
+ ```
+**Run:**
+```bash
+./replace_sim.exe
+```
+**Sample Output:**
+
+![Task A Output](Screenshots/TASK3.png)
+
+### Task D – Managing Processes in PowerShell
+
+**Run:**
+```bash
+./create_basic.exe
+ ```
+**Run:**
+```powershell
+Get-Process child_echo
+Stop-Process -Id <PID>
+```
+**Sample Output:**
+
+![Task A Output](Screenshots/TASK4.png)
+
+
+
+
+
+
 
 
 
