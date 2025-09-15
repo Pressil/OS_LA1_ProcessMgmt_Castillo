@@ -4,7 +4,7 @@
 
 | Task | Compile Command(s) | Run Command |
 |------|------------------|------------|
-| Task A – Single Child | `gcc child_echo.c -o child_echo.exe`<br>`gcc src/create_basic.c -o create_basic.exe` | `./create_basic.exe` |
+| Task A – Single Child | `gcc child_echo.c -o child_echo.exe`<br>`gcc create_basic.c -o create_basic.exe` | `./create_basic.exe` |
 | Task B – Two Children | `gcc create_two_children.c -o create_two_children.exe` | `./create_two_children.exe` |
 | Task C – Simulating exec() | `gcc replace_sim.c -o replace_sim.exe` | `./replace_sim.exe` |
 | Task D – Managing Processes in PowerShell | Run any parent program, e.g., `./create_basic.exe` | `Get-Process child_echo` / `Stop-Process -Id <PID>` |
@@ -84,6 +84,7 @@ gcc src/create_basic.c -o create_basic.exe
 ./create_basic.exe
 ```
 **Sample Output:**
+
 
 
 
