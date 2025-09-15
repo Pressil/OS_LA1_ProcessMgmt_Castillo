@@ -130,6 +130,13 @@ Stop-Process -Id <PID>
 
 ![Task A Output](Screenshots/TASK4.png)
 
+---
+
+## Conclusion
+
+This lab provided hands-on experience with fundamental process management concepts in operating systems. By creating and managing processes, simulating `exec()` behavior, and using PowerShell to observe process states, the tasks demonstrated how theory translates into practice. The included sample outputs and screenshots serve as references for verifying correct implementation and understanding the results.
+
+
 
 
 
